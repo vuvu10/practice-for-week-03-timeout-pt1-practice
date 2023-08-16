@@ -32,12 +32,12 @@ function setSecondsTimeout(cb, delayInSeconds) {
 
 
 setSecondsTimeout(function () {
-  console.log('hello'); // should print 'hello' after 1000 milliseconds
+  console.log('hello');
 }, 1);
 
 
 setSecondsTimeout(function () {
-  console.log('world'); // should print 'world' after 1400 milliseconds
+  console.log('world');
 }, 1.4);
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
